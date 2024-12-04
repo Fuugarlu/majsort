@@ -55,12 +55,16 @@ body {
 }
 
 .starting.start.button {
-  grid-row: span 6;
+  grid-row: span 2;
 }
 
 .starting.load.button {
   grid-row: span 3;
   display: none;
+}
+
+.starting.expand.button {
+  grid-row: span 4;
 }
 
 .sorting.button, .finished.button {
@@ -113,6 +117,7 @@ body {
 .sorter > .image {
   width: 180px;
   height: 180px;
+  /* height: 385px; */
   margin: auto;
   grid-row: 1 / 7;
   cursor: pointer;
