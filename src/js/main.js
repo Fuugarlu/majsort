@@ -74,8 +74,10 @@ function init() {
   document.querySelector('.clearsave').addEventListener('click', clearProgress);
 
   /** Define keyboard controls (up/down/left/right vimlike k/j/h/l). */
-  document.addEventListener('keypress', (ev) => {
+  document.addEventListener('keydown', (ev) => {
     /** If sorting is in progress. */
+    console.log("click=");
+    console.log(ev.key);
     if (timestamp && !timeTaken && !loading && choices.length === battleNo - 1) {
       switch(ev.key) {
         case 's': case '3':                   saveProgress('Progress'); break;
