@@ -583,15 +583,15 @@ function toggleExpandWaifus() {
 function expandWaifus() {
   if (expand) {
     document.querySelector('.left.sort.image').style.height = "385px";
-    document.querySelector('.left.sort.image').src = "/src/assets/bannerL_expand.png";
+    document.querySelector('.left.sort.image').src = "src/assets/bannerL_expand.png";
     document.querySelector('.right.sort.image').style.height = "385px";
-    document.querySelector('.right.sort.image').src = "/src/assets/bannerR_expand.png";
+    document.querySelector('.right.sort.image').src = "src/assets/bannerR_expand.png";
   }
   else {
     document.querySelector('.left.sort.image').style.height = "180px";
-    document.querySelector('.left.sort.image').src = "/src/assets/bannerL.png";
+    document.querySelector('.left.sort.image').src = "src/assets/bannerL.png";
     document.querySelector('.right.sort.image').style.height = "180px";
-    document.querySelector('.right.sort.image').src = "/src/assets/bannerR.png";
+    document.querySelector('.right.sort.image').src = "src/assets/bannerR.png";
   }
 }
 
