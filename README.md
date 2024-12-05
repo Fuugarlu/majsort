@@ -1,4 +1,13 @@
-# charasort
+# Majsort
+A Mahjong Soul character sorter based on execfera's Touhou sorter. It includes gender, collab, and outfit choices. Feel free to contact me if you'd like anything else added.
+
+**Note to self for updating the character list:**
+
+To update data, use `bighead.png` for face pics and `waitingroom.png` for full-body pics.
+
+The following is the original readme from execfera's repository:
+
+## charasort
 A web based character sorter. Allows users to run through a manual merge sort of their favorite
 characters from a set.
 
