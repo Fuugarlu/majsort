@@ -1595,24 +1595,6 @@ dataSet[dataSetVersion].characterData = [
     },
   },
   {
-    name: "Kuro (Bond)",
-    img: "Kurone Toujou Bond.png",
-    opts: {
-      gender: ["female"],
-      series: ["majsoul"],
-      outfit: ["bond"],
-    },
-  },
-  {
-    name: "Kuro",
-    img: "Kurone Toujou Default.png",
-    opts: {
-      gender: ["female"],
-      series: ["majsoul"],
-      outfit: ["default"],
-    },
-  },
-  {
     name: "Kurone Toujou (Bond)",
     img: "Kurone Toujou Bond.png",
     opts: {
